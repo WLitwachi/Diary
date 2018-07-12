@@ -1,10 +1,12 @@
  <head>
   <link rel="stylesheet" href="styles.css">
 </head>
- <form action="action_page.php">
+ <form action="">
 
+ <fieldset>
+  <legend>Login:</legend>
   <div class="container">
-    <label for="uname"><b>Username</b></label>
+    <label for="username"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
     <label for="psw"><b>Password</b></label>
@@ -19,7 +21,8 @@
   <div class="container" style="background-color:#f1f1f1">
 
     <button type="button" class="cancelbtn">Cancel</button>
-    <span>Don't have an account? <a href="#">Sign up</a>.</span>
+    <span>Don't have an account? <a href="register.html">Sign up</a>.</span>
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
+ </fieldset>
 </form>
