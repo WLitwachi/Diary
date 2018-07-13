@@ -1,4 +1,13 @@
+
 * {box-sizing: border-box}
+
+body {
+     background-color: #E9967A;
+     /*background-image: url("background.jpg");*/
+     background-repeat: no-repeat;
+
+
+}
 
 /* Add padding to containers */
 .container {
@@ -12,6 +21,18 @@
   height: 100%;
 
 
+}
+
+fieldset{
+  border: 1px solid rgb(0, 0, 0);
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form
+{
+    text-align: center;
 }
 
 /* Full-width input fields */
@@ -37,7 +58,7 @@ hr {
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #4CAF50;
+  background-color: #672E3B;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -49,6 +70,28 @@ hr {
 
 .registerbtn:hover {
   opacity:1;
+}
+
+/* Set a style for the submit/login button */
+.loginbtn {
+  background-color: #672E3B;
+  color: white;
+  padding: 8px 8px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+/* Set a style for the submit/login button */
+.cancelbtn {
+  background-color: #672E3B;
+  color: white;
+  padding: 8px 8px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
 }
 
 /* Add a blue text color to links */

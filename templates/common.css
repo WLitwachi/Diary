@@ -1,6 +1,19 @@
+body {
+     /*background-color: #FFDAB9;*/
+     background-image: url("home.jpg");
+     background-repeat: no-repeat;
+
+
+}
+
 .topnav {
-    background-color: #333;
+    background-color: #672E3B;
     overflow: hidden;
+    /*display: inline-block;*/
+    position: relative;
+    left: 0px;
+
+
 }
 
 /* Style the links inside the navigation bar */
@@ -9,20 +22,20 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 30px;
     text-decoration: none;
     font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color:  #005960;
     color: black;
 }
 
 /* Add an active class to highlight the current page */
 .active {
-    background-color: #4CAF50;
+    background-color:  #005960;
     color: white;
 }
 
